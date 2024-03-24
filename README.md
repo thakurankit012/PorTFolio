@@ -4,7 +4,7 @@
 
 Welcome to my portfolio website! This project showcases my skills and projects using React and Tailwind CSS.
 
-![Portfolio Website Preview](preview.png)
+![Portfolio Website Preview](src/assets/preview.png)
 
 ## 🚀 Getting Started
 
