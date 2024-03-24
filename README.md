@@ -61,7 +61,7 @@ This will create an optimized build of the website in the `build` directory. You
 
 ## ✍️ Authors
 
-- **Your Name** - [Ankit thakur](https://ankitthakur1.netlify.app/)
+-  - [Ankit thakur](https://ankitthakur1.netlify.app/)
 
 ## 📄 License
 
