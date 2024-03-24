@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode styles */
+/* Dark mode styles */
+.dark-mode {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --accent-color: #359aedea;
+  --border-color: #ffffff;
+  --scrollbar-track-color: #676565;
+  --scrollbar-thumb-color: #555;
+}
+  .text-white-dark-mode {
+    color: #ffffff; /* White color in dark mode */
+  }
+
+
+
+
+/* Light mode styles */
+.light-mode {
+  --bg-color: #ffffff;
+  --text-color: #212121;
+  --accent-color: #73adffeb;
+  --border-color: #626262d4;
+  --scrollbar-track-color: #000000;
+  --scrollbar-thumb-color: #676767;
+    }
+
+
+  .text-black-light-mode {
+   --text-color: #000000; /* Black color in light mode */
+  }
+
+
+/* Apply styles based on mode */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Projects image */
+.projects img {
+  width: 100%;
+}
+
+/* Navigation links */
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #62bff4;
+  text-decoration: none;
+  border-bottom: 2px solid #303030;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #23232300;
+}
+
+/* Flex container */
+.flex {
+  display: flex;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(92, 92, 92, 0.541);
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Mobile navigation */
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-transparent backdrop-blur-sm duration-500;
+  z-index: 1000;
+
+  /* Show the nav when the screen size is mobile */
+  @media (max-width: 767.98px) {
+    display: block;
+    opacity: 1; /* Show the nav when the screen size is mobile */
+  }
+}
+
+/* Hero section */
+h1 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 0.9 !important;
+  font-size: xx-large;
+}
+
+/* About section */
+p {
+  line-height: 1.9 !important;
+}
+
+/* Description section */
+.description {
+  overflow-y: auto;
+  max-height: 200px;
+  padding: 7px;
+  background-color: #5c5c5cd8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+/* Scrollbar */
+/* Scrollbar Track */
+.description::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+/* Scrollbar Thumb */
+.description::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+}
+
+/* Add hover effect to text in hero section */
+.hero-info h,
+.hero-info p {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+  transform: translateY(0);
+  opacity: 1;
+  color: var(--text-color);
+}
+
+.hero-info:hover h1,
+.hero-info:hover p {
+  transform: translateY(-10px);
+  opacity: 0.8;
+  color: var(--text-color);
+  transform: scale(1.05);
+}
+
+/* Dark mode toggle button */
+.mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.mode-toggle:hover {
+  background-color: #f0f0f0;
+}
+
+.dark-mode .mode-toggle {
+  background-color: #333333;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .mode-toggle:hover {
+  background-color: #222222;
+}
+
+/* Light mode styles */
+
