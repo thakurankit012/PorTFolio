@@ -1,6 +1,5 @@
 
 
-```
 # Portfolio Website
 
 Welcome to my portfolio website! This project showcases my skills and projects using React and Tailwind CSS.
@@ -62,7 +61,7 @@ This will create an optimized build of the website in the `build` directory. You
 
 ## ✍️ Authors
 
-- **Your Name** - [Ankit thakur](https://example.com/)
+- **Your Name** - [Ankit thakur](https://ankitthakur1.netlify.app/)
 
 ## 📄 License
 
