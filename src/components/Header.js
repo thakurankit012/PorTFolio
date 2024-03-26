@@ -71,7 +71,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href='https://drive.google.com/file/d/1zdVVGFyYBoRfNK3VNQ25OKbd89iqSyQj/view?usp=sharing' target='_blank' rel='noreferrer' onClick={handleToggle}>
+            <a href='https://drive.google.com/file/d/1yNzjVupEYpuE-v-UJGI2hBA0Jyc7_FjU/view?usp=sharing' target='_blank' rel='noreferrer' onClick={handleToggle}>
               Resume
             </a>
           </li>
