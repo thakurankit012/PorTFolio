@@ -20,11 +20,26 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your mach
 Here are the technologies used in this project:
 
 <div align="center">
-  <img src="src/assets/1.png" alt="JavaScript" width="130" />
-  <img src="src/assets/2.png" alt="CSS" width="40" />
-  <img src="src/assets/3.png" alt="React" width="130" />
-  <img src="src/assets/4.png" alt="Tailwind CSS" width="60" />
-  <img src="src/assets/5.png" alt="Git" width="70" />
+<img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="JavaScript" width="100" height="28" />
+<img src="https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="CSS" width="100" height="28" />
+<img src="https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white" alt="React" width="100" height="28" />
+<img src="https://img.shields.io/badge/Brave-FF1B2D?style=for-the-badge&logo=Brave&logoColor=white" alt="Tailwind CSS" width="100" height="28" />
+<img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" alt="Git" width="100" height="28" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Git" width="100" height="28" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Git" width="100" height="28" />
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Git" width="100" height="28" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Git" width="100" height="28" />
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/thakurankit012/portfolio?style=social)](https://github.com/thakurankit012/portfolio)
+[![GitHub forks](https://img.shields.io/github/forks/thakurankit012/portfolio?style=social)](https://github.com/thakurankit012/portfolio)
+
+
+
+
+
+
+
+  
   
 </div>
 
@@ -55,4 +70,7 @@ To run the website locally, use the following command:
 ```bash
 npm start
 ```
+
+want to make your portfolio just download the project and edit as per your details 
+my portfolio project is in progress ....
 
