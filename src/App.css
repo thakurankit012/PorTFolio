@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Dark mode styles */
+
 /* Dark mode styles */
 .dark-mode {
   --bg-color: #1a1a1a;
@@ -13,7 +13,7 @@
   --scrollbar-thumb-color: #555;
 }
   .text-white-dark-mode {
-    color: #ffffff; /* White color in dark mode */
+    color: #ffffff; 
   }
 
 
@@ -31,22 +31,21 @@
 
 
   .text-black-light-mode {
-   --text-color: #000000; /* Black color in light mode */
+   --text-color: #000000; 
   }
 
 
-/* Apply styles based on mode */
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
 
-/* Projects image */
 .projects img {
   width: 100%;
 }
 
-/* Navigation links */
+
 nav li a {
   @apply px-4 py-5 text-lg;
 }
@@ -59,7 +58,6 @@ nav li a:hover {
   box-shadow: #23232300;
 }
 
-/* Flex container */
 .flex {
   display: flex;
   background-color: var(--bg-color);
@@ -69,15 +67,14 @@ nav li a:hover {
   margin: 10px;
 }
 
-/* Mobile navigation */
+/* Mobile nav*/
 .mobile-nav {
   @apply block md:hidden fixed top-10 py-2 w-full h-full bg-transparent backdrop-blur-sm duration-500;
   z-index: 1000;
 
-  /* Show the nav when the screen size is mobile */
   @media (max-width: 767.98px) {
     display: block;
-    opacity: 1; /* Show the nav when the screen size is mobile */
+    opacity: 1; 
   }
 }
 
@@ -104,17 +101,16 @@ p {
 }
 
 /* Scrollbar */
-/* Scrollbar Track */
+
 .description::-webkit-scrollbar-track {
   background: var(--scrollbar-track-color);
 }
 
-/* Scrollbar Thumb */
+
 .description::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-thumb-color);
 }
 
-/* Add hover effect to text in hero section */
 .hero-info h,
 .hero-info p {
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -131,7 +127,7 @@ p {
   transform: scale(1.05);
 }
 
-/* Dark mode toggle button */
+
 .mode-toggle {
   position: fixed;
   bottom: 20px;
@@ -161,5 +157,4 @@ p {
   background-color: #222222;
 }
 
-/* Light mode styles */
 
