@@ -77,7 +77,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      {/* Toggle Button*/}
+      {/*Toggle Button*/}
       <button onClick={handleToggle} className='block md:hidden'>
         {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
       </button>
