@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail } from 'react-icons/ai';
- // Import CSS file for additional styling
+
 
 const ContactSection = () => {
   const [, setIsVisible] = useState(false);
@@ -20,7 +20,7 @@ const ContactSection = () => {
 
     window.addEventListener('scroll', handleScroll);
 
-    // Cleanup function to remove the event listener
+   
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
