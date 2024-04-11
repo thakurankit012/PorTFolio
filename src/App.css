@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-/* Dark mode styles */
+/* Dark mode */
 .dark-mode {
   --bg-color: #1a1a1a;
   --text-color: #ffffff;
@@ -19,7 +19,7 @@
 
 
 
-/* Light mode styles */
+/* Light mode */
 .light-mode {
   --bg-color: #ffffff;
   --text-color: #212121;
