@@ -70,6 +70,10 @@ To run the website locally, use the following command:
 ```bash
 npm start
 ```
+## Contributing
+
+We welcome contributions from the community to improve HavelBook further. If you have any ideas for new features, design enhancements, or bug fixes, feel free to open an issue or submit a pull request.
+
 
 
 you can make changes in this project just clone this repo and make it your own portfolio...
