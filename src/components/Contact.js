@@ -38,7 +38,7 @@ const ContactSection = () => {
         <p className='py-2'>
           <span className='font-bold'>Email:</span> thakurankit13197@gmail.com
         </p>
-        <p className='py-2'>
+        <p className='py-3'>//py-2
           <span className='font-bold'>Phone:</span> (+91) 7011783191
         </p>
         <div className='py-5 '>
