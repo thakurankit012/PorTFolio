@@ -71,6 +71,7 @@ To run the website locally, use the following command:
 npm start
 ```
 
-want to make your portfolio just download the project and edit as per your details 
-my portfolio project is in progress ....
+
+you can make changes in this project just clone this repo and make it your own portfolio...
+this project is in progress... things will gonna change.
 
