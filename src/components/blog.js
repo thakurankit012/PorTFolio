@@ -21,17 +21,17 @@ const Blog = () => {
           </a>
         </div>
         <div className=''>
-          <a href='https://drive.google.com/file/d/1zdVVGFyYBoRfNK3VNQ25OKbd89iqSyQj/view?usp=sharing' target='_blank' rel='noreferrer'>
+          <a href='.//' target='_blank' rel='noreferrer'>
             {/* <img src='' alt='img' className='object-contain h-80 cursor-pointer' /> */}
           </a>
         </div>
         <div className=''>
-          <a href='https://drive.google.com/file/d/1zdVVGFyYBoRfNK3VNQ25OKbd89iqSyQj/view?usp=sharing' target='_blank' rel='noreferrer'>
+          <a href='.//' target='_blank' rel='noreferrer'>
             {/* <img  alt='img' className='object-contain h-80 cursor-pointer' /> */}
           </a>
         </div>
         <div className=''>
-          <a href='https://drive.google.com/file/d/1zdVVGFyYBoRfNK3VNQ25OKbd89iqSyQj/view?usp=sharing' target='_blank' rel='noreferrer'>
+          <a href='//' target='_blank' rel='noreferrer'>
             {/* <img  alt='img' className='object-contain h-80 cursor-pointer' /> */}
           </a>
         </div>
