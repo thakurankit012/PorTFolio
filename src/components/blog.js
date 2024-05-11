@@ -27,8 +27,8 @@ const Blog = ({ selectedLanguage }) => {
       </div>
       <div className='projects container mx-auto grid md:grid-cols-3 gap-10 text-center	'>
         <div className=''>
-          <a href='./#about' target='_blank' rel='noreferrer'>
-            {/* <img  alt='img' className='object-contain h-80 cursor-pointer' /> */}
+          <a href='https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_JLmss7L9ZywTDmk6k_1715432003299_completion_certificate.pdft' target='_blank' rel='noreferrer'>
+            <img  alt='img' className='object-contain h-80 cursor-pointer' />
           </a>
         </div>
         <div className=''>
