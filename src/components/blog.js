@@ -27,7 +27,7 @@ const Blog = ({ selectedLanguage }) => {
       </div>
       <div className='projects container mx-auto grid md:grid-cols-3 gap-10 text-center	'>
         <div className=''>
-          <a href='' target='_blank' rel='noreferrer'>
+          <a href='https://ibb.co/3s0k69g' target='_blank' rel='noreferrer'>
             <img  alt='img' src='https://ibb.co/3s0k69g' className='object-contain h-80 cursor-pointer' />
           </a>
         </div>
