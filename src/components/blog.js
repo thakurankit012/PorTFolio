@@ -1,4 +1,5 @@
 import React from 'react';
+import certificate from '../assets/Accenture certificate.jpg';
 
 const Blog = ({ selectedLanguage }) => {
   // Define content based on language
@@ -28,7 +29,7 @@ const Blog = ({ selectedLanguage }) => {
       <div className='projects container mx-auto grid md:grid-cols-3 gap-10 text-center	'>
         <div className=''>
           <a href='https://ibb.co/3s0k69g' target='_blank' rel='noreferrer'>
-            <img  alt='img' src='https://ibb.co/3s0k69g' className='object-contain h-80 cursor-pointer' />
+            <img  alt='img' src={certificate} className='object-contain h-80 cursor-pointer' />
           </a>
         </div>
         <div className=''>
