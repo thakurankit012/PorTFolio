@@ -1,5 +1,5 @@
 import React from 'react';
-import certificate from '../assets/Accenture certificate.jpg';
+
 
 const Blog = ({ selectedLanguage }) => {
   // Define content based on language
