@@ -33,7 +33,7 @@ const Header = ({ changeLanguage }) => {
             <a href='/#contact'>{changeLanguage === 'es' ? 'Contacto' : 'Contact'}</a>
           </li>
           <li>
-            <a href='https://drive.google.com/file/d/1dg0M4MqwBCNgvuIU-jTUmvejwWhbs7m3/view?usp=sharing' target='_blank' rel='noreferrer'>
+            <a href='https://drive.google.com/file/d/1XzKQo0xs_hFwEzQGPRLjkGSkf0YG9Y6B/view' target='_blank' rel='noreferrer'>
               {changeLanguage === 'es' ? 'Currículum' : 'Resume'}
             </a>
           </li>
@@ -72,7 +72,7 @@ const Header = ({ changeLanguage }) => {
             </a>
           </li>
           <li>
-            <a href='https://drive.google.com/file/d/1dg0M4MqwBCNgvuIU-jTUmvejwWhbs7m3/view?usp=sharing' target='_blank' rel='noreferrer' onClick={handleToggle}>
+            <a href='https://drive.google.com/file/d/1XzKQo0xs_hFwEzQGPRLjkGSkf0YG9Y6B/view' target='_blank' rel='noreferrer' onClick={handleToggle}>
               {changeLanguage === 'es' ? 'Currículum' : 'Resume'}
             </a>
           </li>
