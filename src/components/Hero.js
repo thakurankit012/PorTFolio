@@ -6,20 +6,21 @@ const Hero = ({ selectedLanguage, onLanguageChange }) => {
   const [isHovered,] = useState(false);
 
   // Define content based on language
-  const content = {
-    en: {
-      title: 'Hi, my name is',
-      name: 'Ankit',
-      intro: "I'm a frontend developer who loves turning coffee into beautiful websites, especially with the MERN stack. I'm all about combining good design, great functionality, and a healthy dose of humor to create engaging digital experiences. From concept to execution, I pour my passion into every project to ensure it not only looks fantastic but also works seamlessly. Join me in crafting captivating websites that leave a lasting impression! :)",
-      buttonLabel: 'Check out my projects'
-    },
-    es: {
-      title: 'Hola, mi nombre es',
-      name: 'Ankit',
-      intro: "Soy un desarrollador frontend que ama convertir café en hermosos sitios web, especialmente con el stack MERN. Me encanta combinar un buen diseño, gran funcionalidad y una dosis saludable de humor para crear experiencias digitales atractivas. Desde el concepto hasta la ejecución, vierto mi pasión en cada proyecto para asegurarme de que no solo se vea fantástico, sino que también funcione perfectamente. ¡Únete a mí para crear sitios web cautivadores que dejen una impresión duradera! :)",
-      buttonLabel: 'Ver mis proyectos'
-    }
-  };
+const content = {
+  en: {
+    title: 'Hi, my name is',
+    name: 'Ankit',
+    intro: "I'm a frontend developer who loves turning coffee into beautiful websites, especially in the realm of web development. I'm all about combining good design, great functionality, and a healthy dose of humor to create engaging digital experiences. From concept to execution, I pour my passion into every project to ensure it not only looks fantastic but also works seamlessly. Join me in crafting captivating websites that leave a lasting impression! :)",
+    buttonLabel: 'Check out my projects'
+  },
+  es: {
+    title: 'Hola, mi nombre es',
+    name: 'Ankit',
+    intro: "Soy un desarrollador frontend que ama convertir café en hermosos sitios web, especialmente en el ámbito del desarrollo web. Me encanta combinar un buen diseño, gran funcionalidad y una dosis saludable de humor para crear experiencias digitales atractivas. Desde el concepto hasta la ejecución, vierto mi pasión en cada proyecto para asegurarme de que no solo se vea fantástico, sino que también funcione perfectamente. ¡Únete a mí para crear sitios web cautivadores que dejen una impresión duradera! :)",
+    buttonLabel: 'Ver mis proyectos'
+  }
+};
+
 
   return (
     <section className='bg-primary text-primary py-6 md:py-32 px-16 md:px-32'>
